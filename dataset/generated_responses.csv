@@ -1,0 +1,666 @@
+Category,Prompt_Type,Prompt,Response
+Education,Zero-shot,Explain machine learning to a beginner.,Explain machine learning to a beginner.
+Healthcare,Zero-shot,Explain why regular exercise is important.,"Explain why regular exercise is important. The body needs to learn to perform well. The body needs to learn to perform well. The body needs to learn to perform well. The body needs to learn to perform well.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"
+Finance,Zero-shot,Explain what a savings account is.,"Explain what a savings account is.
+
+
+
+
+The first stage of the analysis takes place in the second stage of the analysis. The only difference between the two scenarios is that the investment in a bank account is more than that of the investment in a bank account. The bank account is not a deposit account. The deposit account is not a bank account.
+The second analysis takes place in the third stage of the analysis."
+Customer Support,Zero-shot,A customer says their order has not arrived. Write a helpful response.,"A customer says their order has not arrived. Write a helpful response.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"
+Programming,Zero-shot,Explain what a Python function is to a beginner.,"Explain what a Python function is to a beginner.
+
+
+
+
+
+My main goal with the language is to learn how to use Python and its syntax to define a new language.
+I will share some of the tools and resources I found useful to me.
+This post was originally written for Python: A Guide to the Language, and a Python Tutorial. I hope it helps you learn Python a bit more and enjoy reading."
+Education,One-shot,"
+Example:
+Question: What is a computer?
+Answer: A computer is an electronic device that processes information.
+
+Now answer this:
+Question: Explain machine learning to a beginner.
+Answer:
+","
+Example:
+Question: What is a computer?
+Answer: A computer is an electronic device that processes information.
+
+Now answer this:
+Question: Explain machine learning to a beginner.
+Answer:
+Question: How do you know how it is possible to see information in a computer?
+Answer: A computer is an electronic device that processes information.
+This is a question that you have to ask yourself.
+Question: What are the advantages of a computer?
+Answer: Computer learning to a beginner.
+Question: How do you know how it is possible to see information in a computer?"
+Healthcare,One-shot,"
+Example:
+Question: What is a computer?
+Answer: A computer is an electronic device that processes information.
+
+Now answer this:
+Question: Explain why regular exercise is important.
+Answer:
+","
+Example:
+Question: What is a computer?
+Answer: A computer is an electronic device that processes information.
+
+Now answer this:
+Question: Explain why regular exercise is important.
+Answer:
+Question: What is a computer?
+Answer: What is a computer?
+Answer: What is a computer?
+Answer: What is a computer?
+Answer: What is a computer?
+Answer: What is a computer?
+Answer: What is a computer?
+Question: What is a computer?
+Answer: What is a computer?
+Answer: What is a computer?
+"
+Finance,One-shot,"
+Example:
+Question: What is a computer?
+Answer: A computer is an electronic device that processes information.
+
+Now answer this:
+Question: Explain what a savings account is.
+Answer:
+","
+Example:
+Question: What is a computer?
+Answer: A computer is an electronic device that processes information.
+
+Now answer this:
+Question: Explain what a savings account is.
+Answer:
+Question: What is a digital savings account?
+Answer: A computer is a computer that processes information.
+Now answer this:
+Question: What is a savings account?
+Answer: A computer is a computer that processes information.
+Now answer this:
+Question: What is a savings account?
+Answer: A computer is a computer that processes information.
+Now answer this:
+Question"
+Customer Support,One-shot,"
+Example:
+Question: What is a computer?
+Answer: A computer is an electronic device that processes information.
+
+Now answer this:
+Question: A customer says their order has not arrived. Write a helpful response.
+Answer:
+","
+Example:
+Question: What is a computer?
+Answer: A computer is an electronic device that processes information.
+
+Now answer this:
+Question: A customer says their order has not arrived. Write a helpful response.
+Answer:
+Question: Has your order not arrived.
+Answer:
+Question: Does your order have arrived?
+Answer:
+Question: Has your order not arrived.
+Answer:
+Question: If your order has arrived, does your order have arrived?
+Answer:
+Question: Has your order not arrived.
+Answer:
+Question: Has your order not arrived.
+Answer:
+Question:"
+Programming,One-shot,"
+Example:
+Question: What is a computer?
+Answer: A computer is an electronic device that processes information.
+
+Now answer this:
+Question: Explain what a Python function is to a beginner.
+Answer:
+","
+Example:
+Question: What is a computer?
+Answer: A computer is an electronic device that processes information.
+
+Now answer this:
+Question: Explain what a Python function is to a beginner.
+Answer:
+Question: What is a computer?
+Answer: Python functions are to a beginner.
+Question: What is a computer?
+Answer: A computer is a computer.
+Question: What is a computer?
+Answer: A computer is a computer.
+Question: What is a computer?
+Answer: A computer is a computer.
+Question: What is a computer?
+Answer: A"
+Education,Few-shot,"
+Example 1:
+Question: What is Python?
+Answer: Python is a programming language.
+
+Example 2:
+Question: What is Java?
+Answer: Java is an object-oriented programming language.
+
+Example 3:
+Question: What is SQL?
+Answer: SQL is used to manage databases.
+
+Now answer this:
+Question: Explain machine learning to a beginner.
+Answer:
+","
+Example 1:
+Question: What is Python?
+Answer: Python is a programming language.
+
+Example 2:
+Question: What is Java?
+Answer: Java is an object-oriented programming language.
+
+Example 3:
+Question: What is SQL?
+Answer: SQL is used to manage databases.
+
+Now answer this:
+Question: Explain machine learning to a beginner.
+Answer:
+Question: What is SQL?
+Answer: SQL is a programming language.
+Example 4:
+Question: What is the Python language?
+Answer: Python is a programming language.
+Example 5:
+Question: What is Java?
+Answer: SQL is a programming language.
+Example 6:
+Question: What is Python?
+Answer: Python is a programming language.
+Example 7"
+Healthcare,Few-shot,"
+Example 1:
+Question: What is Python?
+Answer: Python is a programming language.
+
+Example 2:
+Question: What is Java?
+Answer: Java is an object-oriented programming language.
+
+Example 3:
+Question: What is SQL?
+Answer: SQL is used to manage databases.
+
+Now answer this:
+Question: Explain why regular exercise is important.
+Answer:
+","
+Example 1:
+Question: What is Python?
+Answer: Python is a programming language.
+
+Example 2:
+Question: What is Java?
+Answer: Java is an object-oriented programming language.
+
+Example 3:
+Question: What is SQL?
+Answer: SQL is used to manage databases.
+
+Now answer this:
+Question: Explain why regular exercise is important.
+Answer:
+Question: What is Java?
+Answer: Java is a Java language.
+Example 4:
+Question: What is Java?
+Answer: Java is a Java language.
+Example 5:
+Question: What is Java?
+Answer: Java is a Java language.
+Example 6:
+Question: What is Java?
+Answer: Java is a Java language.
+Example 7:
+"
+Finance,Few-shot,"
+Example 1:
+Question: What is Python?
+Answer: Python is a programming language.
+
+Example 2:
+Question: What is Java?
+Answer: Java is an object-oriented programming language.
+
+Example 3:
+Question: What is SQL?
+Answer: SQL is used to manage databases.
+
+Now answer this:
+Question: Explain what a savings account is.
+Answer:
+","
+Example 1:
+Question: What is Python?
+Answer: Python is a programming language.
+
+Example 2:
+Question: What is Java?
+Answer: Java is an object-oriented programming language.
+
+Example 3:
+Question: What is SQL?
+Answer: SQL is used to manage databases.
+
+Now answer this:
+Question: Explain what a savings account is.
+Answer:
+Question: How much is this savings account worth!
+Question: What is the value of an investment?
+Answer: What is the value of an investment?
+Answer: What is the value of a asset?
+Question: What is the value of an investment?
+Answer: What is the value of a investment?
+Question: What is the value of an investment?
+Question: What"
+Customer Support,Few-shot,"
+Example 1:
+Question: What is Python?
+Answer: Python is a programming language.
+
+Example 2:
+Question: What is Java?
+Answer: Java is an object-oriented programming language.
+
+Example 3:
+Question: What is SQL?
+Answer: SQL is used to manage databases.
+
+Now answer this:
+Question: A customer says their order has not arrived. Write a helpful response.
+Answer:
+","
+Example 1:
+Question: What is Python?
+Answer: Python is a programming language.
+
+Example 2:
+Question: What is Java?
+Answer: Java is an object-oriented programming language.
+
+Example 3:
+Question: What is SQL?
+Answer: SQL is used to manage databases.
+
+Now answer this:
+Question: A customer says their order has not arrived. Write a helpful response.
+Answer:
+Question: A customer says their order has arrived. Write a helpful response.
+Example 4:
+Question: What is Python?
+Answer: Python is a programming language.
+Example 5:
+Question: What is Java?
+Answer: Java is a programming language.
+Example 6:
+Question: What is Python?
+Answer: Java is a programming language.
+Example 7:
+"
+Programming,Few-shot,"
+Example 1:
+Question: What is Python?
+Answer: Python is a programming language.
+
+Example 2:
+Question: What is Java?
+Answer: Java is an object-oriented programming language.
+
+Example 3:
+Question: What is SQL?
+Answer: SQL is used to manage databases.
+
+Now answer this:
+Question: Explain what a Python function is to a beginner.
+Answer:
+","
+Example 1:
+Question: What is Python?
+Answer: Python is a programming language.
+
+Example 2:
+Question: What is Java?
+Answer: Java is an object-oriented programming language.
+
+Example 3:
+Question: What is SQL?
+Answer: SQL is used to manage databases.
+
+Now answer this:
+Question: Explain what a Python function is to a beginner.
+Answer:
+Question: What are the types of strings in a String?
+Answer: Python is a language used to manage database.
+Example 4:
+Question: What are the types of strings in a String?
+Answer: Python is a programming language.
+Example 5:
+Question: What are the types of strings in a String?
+Answer: Python is a programming language.
+Example 6:"
+Education,Role Prompting,"
+You are an experienced teacher.
+
+Question:
+Explain machine learning to a beginner.
+
+Give a clear and simple answer.
+","
+You are an experienced teacher.
+
+Question:
+Explain machine learning to a beginner.
+
+Give a clear and simple answer.
+I do this because I understand that the problem of machine learning is not a problem of learning.
+I mean, I see this as a problem of learning.
+In fact, the problem of machine learning is not a problem of learning.
+I mean, I see this as a problem of learning.
+I mean, I say, just because I understand that is not a problem of learning."
+Healthcare,Role Prompting,"
+You are an medical educator.
+
+Question:
+Explain why regular exercise is important.
+
+Give a clear and simple answer.
+","
+You are an medical educator.
+
+Question:
+Explain why regular exercise is important.
+
+Give a clear and simple answer.
+Answer:
+Do it in a way that doesn't hurt your body.
+Answer:
+Don't.
+Answer:
+Do it in a way that doesn't hurt your body.
+Answer:
+Do it in a way that doesn't hurt your body.
+Answer:
+Do it in a way that doesn't hurt your body.
+Answer:
+Do it in a way that"
+Finance,Role Prompting,"
+You are an financial educator.
+
+Question:
+Explain what a savings account is.
+
+Give a clear and simple answer.
+","
+You are an financial educator.
+
+Question:
+Explain what a savings account is.
+
+Give a clear and simple answer.
+In this section we will explain the benefits of a savings account, how they are used and how they are used.
+What are the advantages of a savings account?
+What are the benefits of a savings account?
+Where are you checking this account?
+How do you use it?
+How does it work?
+How do you use it?
+How do you use it?
+How"
+Customer Support,Role Prompting,"
+You are an professional customer support agent.
+
+Question:
+A customer says their order has not arrived. Write a helpful response.
+
+Give a clear and simple answer.
+","
+You are an professional customer support agent.
+
+Question:
+A customer says their order has not arrived. Write a helpful response.
+
+Give a clear and simple answer.
+Do you know that the order has arrived?
+Answer:
+No, no.
+You have not received an order.
+You are not a customer.
+Question:
+A customer calls an employee.
+Answer:
+Yes, yes.
+You are a customer.
+Question:
+A customer says their order has arrived. Write a helpful response.
+Give a clear and simple answer"
+Programming,Role Prompting,"
+You are an experienced AI engineer.
+
+Question:
+Explain what a Python function is to a beginner.
+
+Give a clear and simple answer.
+","
+You are an experienced AI engineer.
+
+Question:
+Explain what a Python function is to a beginner.
+
+Give a clear and simple answer.
+Question:
+What is the Python function?
+Answer:
+The function is a simple function that can be used to execute arbitrary code in certain situations, such as in a simple Python program.
+Question:
+Is there a Python function, like the Python function, that can be used to execute arbitrary code in certain situations, such as in a simple Python program?
+Answer:
+The function"
+,Chain-of-Thought,"
+Solve the following problem step by step.
+
+Question:
+A student studies 2 hours per day for 5 days. How many hours does the student study in total?
+
+Reason carefully and provide the final answer.
+","
+Solve the following problem step by step.
+
+Question:
+A student studies 2 hours per day for 5 days. How many hours does the student study in total?
+
+Reason carefully and provide the final answer.
+Question:
+I had to be very careful in my study. I had to be very careful in my study. I had to be very careful in my study. I had to be very careful in my study. I had to be very careful in my study. I had to be very careful in my study. I had to be very careful in my study. I had to be very careful in"
+,Chain-of-Thought,"
+Solve the following problem step by step.
+
+Question:
+A shop has 20 apples and sells 7. How many apples are left?
+
+Reason carefully and provide the final answer.
+","
+Solve the following problem step by step.
+
+Question:
+A shop has 20 apples and sells 7. How many apples are left?
+
+Reason carefully and provide the final answer.
+Question:
+A shop has 20 apples and sells 7. How many apples are left?
+Reason carefully and provide the final answer.
+Question:
+A shop has 20 apples and sells 7. How many apples are left?
+Reason carefully and provide the final answer.
+Question:
+A shop has 20 apples and sells 7. How many apples are left?
+Reason carefully and provide the"
+,Chain-of-Thought,"
+Solve the following problem step by step.
+
+Question:
+A class has 30 students. If 10 students are absent, how many students are present?
+
+Reason carefully and provide the final answer.
+","
+Solve the following problem step by step.
+
+Question:
+A class has 30 students. If 10 students are absent, how many students are present?
+
+Reason carefully and provide the final answer.
+Question:
+A class with 30 students is not an actual school.
+Yes, there are, but a few students who are absent. The students are not able to attend.
+Question:
+A class with 30 students is not an actual school.
+Yes, there are, but a few students who are absent.
+Question:
+A class with 30 students is not an actual school."

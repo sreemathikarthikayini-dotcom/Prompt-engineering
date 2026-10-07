@@ -1,0 +1,6 @@
+Prompt_Type,Quality,Accuracy,Completeness
+Zero-shot,3,3,3
+One-shot,3,3,4
+Few-shot,4,4,4
+Role Prompting,4,4,5
+Chain-of-Thought,4,5,4
